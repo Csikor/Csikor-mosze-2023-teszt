@@ -1,0 +1,19 @@
+#1: NELEMENTS hibás használata 7-dik sorban (N_ELEMENTS-ként volt definiálva a kód elején).
+#2: Hiányzik egy pontosvessző a 8-dik sor (std::cout << '1-100 ertekek duplazasa') végéről, továbbá az idézőjel is hibás, ('')
+#3: Az első for ciklusban hiányzik a feltétel, továbbá a ciklusváltozó inkrementálása.
+#4: A második for ciklusban hiányzik a ciklust vezérlő feltétel hiányos, nincs megadva ciklushatár, azaz meddig fusson a ciklus
+#5: A második for ciklus hiányos, csak annyi szerepel ott, hogy "Ertek", de nem írja ki az értékeket ilyen formában, ez így csak "Ertek" szöveget fog kiírni. Illetve hiányzik a sor végén a pontosvessző. 
+#6: A harmadik for ciklusban a ciklus feltételében (i < N_ELEMENTS,) a vessző helyett pontosvesszőnek kell szerepelnie.
+#7: Az atlag változó nincs kezdeményezve/inicializálva mielőtt adnánk hozzá az értékeket, csak a típusa van megadva (int atlag;).A kezdeti érték megadásának hiánya miatt problémákat okozhat a kód további részeiben.
+#8: A harmadik for ciklusban hiányzik a sor végén a pontosvessző a ciklusmagban (atlag += b[i]).
+
+
+
+
+
+
+
+
+
+
+
